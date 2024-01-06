@@ -31,6 +31,7 @@ public class relativeLocators {
         //to-right of
         WebElement radioBtn = driver.findElement(By.id("inlineRadio1"));
         System.out.println(driver.findElement(with(By.tagName("label")).toRightOf(radioBtn)).getText());
+        System.out.println(driver.findElement(with(By.tagName("label")).toRightOf(radioBtn)).getText());
 	}
 
 }
